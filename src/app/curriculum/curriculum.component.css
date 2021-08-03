@@ -26,4 +26,6 @@ img{
  float: left;
  margin-top: 5%;
  margin-left: 35%;
+ border: 5px solid rgba(121,4,136,1);
 }
+
