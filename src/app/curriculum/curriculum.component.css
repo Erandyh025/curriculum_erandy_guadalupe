@@ -1,0 +1,8 @@
+.cuadrado{
+    padding:5px;
+    height: 270px;
+    margin:5px;
+    background: linear-gradient(90deg, rgba(121,4,136,1) 0%, rgba(158,64,170,1) 36%, rgba(254,225,255,1) 100%);
+    box-shadow: rgb(177, 177, 177) 0.3em 0.5em 0.5em;
+    color: white;
+    }
