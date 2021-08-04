@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -11,6 +12,7 @@ import { CurriculumComponent } from './curriculum/curriculum.component';
   ],
   imports: [
     BrowserModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
