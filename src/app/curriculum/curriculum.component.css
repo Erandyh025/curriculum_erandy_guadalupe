@@ -32,12 +32,15 @@
   }
 
   .card2 {
-    height: 350px;
+    height: 750px;
     width: 950px;
     margin:0px auto;
     background-color: #FFF;
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
    
   }
+
+  
   
   /* Image on the left side */
   .thumbnail {
@@ -72,15 +75,27 @@
     margin-left: 390px;
     margin-right: 20px;
   }
+
+  .right2 {
+    margin-left: 200px;
+    margin-right: 20px;
+  }
   
   h1 {
     padding-top: 15px;
     font-size: 1.3rem;
     color: #9c00aa;
+    /* font-family: 'Times New Roman', Times, serif; */
   }
 
   .separator {
     width: 65%;
+    margin-top: 10px;
+    border: 1px solid #b8a7b9;
+  }
+
+  .separator2{
+    width: 100%;
     margin-top: 10px;
     border: 1px solid #b8a7b9;
   }
