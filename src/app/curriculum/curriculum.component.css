@@ -84,6 +84,22 @@
     box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
     overflow: hidden;
   }
+
+  .thumbnail2 {
+    float: right;
+    position: relative;
+    left: 30px;
+    top: -30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+  }
+
+ 
   
   /*object-fit: cover;*/
   /*object-position: center;*/
@@ -105,7 +121,7 @@
   }
 
   .right2 {
-    margin-left: 200px;
+    margin-left: 80px;
     margin-right: 20px;
   }
   
@@ -167,3 +183,106 @@
     -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
   }
+
+
+
+/* */
+
+
+  
+  .div {
+    display: inline-block;
+    position:absolute;
+    top:71%;
+    left:76%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+  }
+  
+  /* Icons */
+  
+  a {
+    color:#fff;
+    background: #db6edb;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    position: relative;
+    display: inline-block;
+    width:40px;
+    height:40px;
+    /* padding-top:12px; */
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+     -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  /* pop-up text */
+  
+  a span {
+    color:rgb(206, 31, 182);
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:14px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* pop-up text arrow */
+  
+  a span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+  }
+  
+  /* text pops up when icon is in hover state */
+  
+  a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+  }
+  
+  /* font awesome icons */
+  
+  /* a:nth-of-type(1):before {
+  content:'\f09a';
+  }
+  a:nth-of-type(2):before {
+  content:'\f099';
+  }
+  a:nth-of-type(3):before {
+  content:'\f0d5';
+  }
+  a:nth-of-type(4):before {
+  content:'\f113';
+  }
+  a:nth-of-type(5):before {
+  content:'\f17d';
+  }
+  a:nth-of-type(6):before {
+  content:'\f1cb';
+  } */
