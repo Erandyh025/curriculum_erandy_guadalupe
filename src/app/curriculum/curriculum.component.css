@@ -32,7 +32,7 @@
   }
 
   .card2 {
-    height: 950px;
+    height: 1150px;
     width: 950px;
     margin:0px auto;
     background-color: #FFF;
@@ -40,6 +40,34 @@
    
   }
 
+  .card3 {
+    float: left;
+    height: 200px;
+    width: 350px;
+    margin:0px auto;
+    background-color: #FFF;
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75); 
+  }
+
+ .conH {
+    height: 150px;
+    width: 250px;
+    margin:0px auto;
+    background-color: #FFF;
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+   
+  }
+
+
+  .habilidades{
+    margin-left: 120px;
+    margin-right: 10px;  
+  }
+
+  .habilidades2{
+    margin-left: 520px;
+    margin-right: 10px;  
+  }
   
   
   /* Image on the left side */
